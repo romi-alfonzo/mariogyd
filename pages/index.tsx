@@ -24,11 +24,11 @@ const Home: NextPage = () => {
         <title>Mario Gueyraud | Frontend Developer</title>
         <meta
           property="description"
-          content="Mario Gueyraud is a software engineer who specializes in building deligthful user experiences with high-quality code"
+          content="Romina Alfonzo es una analista de datos especializada en extraer información clave de conjuntos de datos para impulsar decisiones estratégicas. Utiliza análisis avanzado y herramientas estadísticas para identificar patrones y tendencias, colaborando con equipos para desarrollar soluciones innovadoras."
         />
         <meta
           name="image"
-          content="#"
+          content="https://rominaportfolio.vercel.app/assets/img/placeholders/dope-website.png"
         />
         <meta
           property="og:title"
@@ -37,13 +37,13 @@ const Home: NextPage = () => {
         />
         <meta
           property="og:description"
-          content="Mario Gueyraud is a software engineer who specializes in building deligthful user experiences with high-quality code"
+          content="Romina Alfonzo es una analista de datos especializada en extraer información clave de conjuntos de datos para impulsar decisiones estratégicas. Utiliza análisis avanzado y herramientas estadísticas para identificar patrones y tendencias, colaborando con equipos para desarrollar soluciones innovadoras."
         />
         <meta
           name="og:image"
-          content="#"
+          content="https://rominaportfolio.vercel.app/assets/img/placeholders/dope-website.png"
         />
-        <meta name="og:url" content="#" />
+        <meta name="og:url" content="https://https://rominaportfolio.vercel.app/" />
         <meta name="og:type" content="website" />
       </Head>
       <section
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
                 <br /> I&#39;ve worked with different products such as &nbsp;
                 <b>
                   <a
-                    href="#"
+                    href="https://www.5dias.com.py/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -106,7 +106,7 @@ const Home: NextPage = () => {
                   </a>
                   ,{" "}
                   <a
-                    href="#"
+                    href="https://www.consolidada.com.py/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -114,7 +114,7 @@ const Home: NextPage = () => {
                   </a>
                   ,{" "}
                   <a
-                    href="#/"
+                    href="https://www.visionbanco.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -132,7 +132,7 @@ const Home: NextPage = () => {
               <GradientImage src={aboutMeImage} alt="About Me Image" />
             </div>
           </div>
-          <SocialIcon type="twitter" href="https://twitter.com/romi_alfonzo" />
+          <SocialIcon type="twitter" href="https://twitter.com/mariogyd" />
           &nbsp;&nbsp;&nbsp;
           <SocialIcon
             type="linkedin"

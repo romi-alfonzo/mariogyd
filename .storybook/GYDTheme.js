@@ -26,6 +26,6 @@ export default create({
   inputBorderRadius: 4,
   
   brandTitle: 'My custom storybook',
-  brandUrl: '#',
-  brandImage: '#',
+  brandUrl: 'https://rominaportfolio.vercel.app/',
+  brandImage: 'https://rominaportfolio.vercel.app/static/favicon.svg',
 });
