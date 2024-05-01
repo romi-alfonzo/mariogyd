@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         />
         <meta
           name="image"
-          content="https://mariogyd.com/assets/img/placeholders/dope-website.png"
+          content="#"
         />
         <meta
           property="og:title"
@@ -41,9 +41,9 @@ const Home: NextPage = () => {
         />
         <meta
           name="og:image"
-          content="https://mariogyd.com/assets/img/placeholders/dope-website.png"
+          content="#"
         />
-        <meta name="og:url" content="https://mariogyd.com/" />
+        <meta name="og:url" content="#" />
         <meta name="og:type" content="website" />
       </Head>
       <section
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
                 <br /> I&#39;ve worked with different products such as &nbsp;
                 <b>
                   <a
-                    href="https://www.5dias.com.py/"
+                    href="#"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -106,7 +106,7 @@ const Home: NextPage = () => {
                   </a>
                   ,{" "}
                   <a
-                    href="https://www.consolidada.com.py/"
+                    href="#"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -114,7 +114,7 @@ const Home: NextPage = () => {
                   </a>
                   ,{" "}
                   <a
-                    href="https://www.visionbanco.com/"
+                    href="#/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -132,14 +132,14 @@ const Home: NextPage = () => {
               <GradientImage src={aboutMeImage} alt="About Me Image" />
             </div>
           </div>
-          <SocialIcon type="twitter" href="https://twitter.com/mariogyd" />
+          <SocialIcon type="twitter" href="https://twitter.com/romi_alfonzo" />
           &nbsp;&nbsp;&nbsp;
           <SocialIcon
             type="linkedin"
-            href="https://www.linkedin.com/in/mariogyd/"
+            href="https://www.linkedin.com/in/romi_alfonzo/"
           />
           &nbsp;&nbsp;&nbsp;
-          <SocialIcon type="github" href="https://github.com/mgueyraud" />
+          <SocialIcon type="github" href="https://github.com/romi-alfonzo" />
         </Container>
       </section>
       <section
@@ -185,7 +185,7 @@ const Home: NextPage = () => {
             I&#39;m always open to new opportunities. If you have any question
             or doubt, feel free to drop an email, I&#39;ll get back to you soon!
           </p>
-          <Button href="mailto:mgueyraud.junior@gmail.com">Say Hello</Button>
+          <Button href="mailto:romi.alfonzo99@gmail.com">Say Hello</Button>
         </Container>
         <div className="u-hide-sm">
           <div className={styles.section_contact_bg_img}>
