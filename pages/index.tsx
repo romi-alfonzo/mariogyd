@@ -11,7 +11,7 @@ import {
 import styles from "@styles/pages/Home.module.css";
 import Head from "next/head";
 import Image from "next/image";
-import aboutMeImage from "@assets/img/placeholders/about-me.jpeg";
+import aboutMeImage from "@assets/img/placeholders/about-me.jpg";
 import ovalDegrade from "@assets/img/placeholders/oval_degrade.png";
 import ovalDegradeBottom from "@assets/img/placeholders/oval_degrade_bottom.png";
 import { experiences } from "utils/constants/experiences.constants";
