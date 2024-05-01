@@ -34,5 +34,5 @@ export const Link = Template.bind({});
 
 Link.args = {
   children: "Link",
-  href: "https://mariogyd.com",
+  href: "#",
 };

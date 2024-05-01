@@ -26,6 +26,6 @@ export default create({
   inputBorderRadius: 4,
   
   brandTitle: 'My custom storybook',
-  brandUrl: 'https://mariogyd.com',
-  brandImage: 'https://mariogyd.com/static/favicon.svg',
+  brandUrl: '#',
+  brandImage: '#',
 });
