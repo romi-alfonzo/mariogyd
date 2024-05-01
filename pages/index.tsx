@@ -11,7 +11,7 @@ import {
 import styles from "@styles/pages/Home.module.css";
 import Head from "next/head";
 import Image from "next/image";
-import aboutMeImage from "@assets/img/placeholders/about-me.jpg";
+import aboutMeImage from "@assets/img/placeholders/about-me.jpeg";
 import ovalDegrade from "@assets/img/placeholders/oval_degrade.png";
 import ovalDegradeBottom from "@assets/img/placeholders/oval_degrade_bottom.png";
 import { experiences } from "utils/constants/experiences.constants";
@@ -21,7 +21,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Mario Gueyraud | Frontend Developer</title>
+        <title>Romina Alfonzo | Data Analyst
+        </title>
         <meta
           property="description"
           content="Romina Alfonzo es una analista de datos especializada en extraer información clave de conjuntos de datos para impulsar decisiones estratégicas. Utiliza análisis avanzado y herramientas estadísticas para identificar patrones y tendencias, colaborando con equipos para desarrollar soluciones innovadoras."
@@ -32,7 +33,7 @@ const Home: NextPage = () => {
         />
         <meta
           property="og:title"
-          content="Mario Gueyraud | Frontend Developer"
+          content="Romina Alfonzo | Data Analyst"
           key="title"
         />
         <meta
@@ -58,18 +59,18 @@ const Home: NextPage = () => {
               marginBottom: 10,
             }}
           >
-            Hi my name is,
+            Hola mi nombre es,
           </p>
           <h1 className={styles.bigTitle}>
-            Mario Gueyraud <br />
-            I&#39;m a <span className={styles.gradientText}>Frontend</span>{" "}
-            Engineer.
+            Romina Alfonzo <br />
+            <span className={styles.gradientText}>Data</span>{" "}
+            Analyst.
           </h1>
           <p className={styles.description}>
-            I&#39;m a software engineer based on Paraguay. I love everything
-            related to frontend such as css, javascript, a11y and also
-            performance. I am focused on building deligthful user experiences
-            with high-quality code.
+            Soy una analista de datos con sede en Paraguay. Me apasiona el análisis de datos y la
+            generación de insights significativos. Utilizo técnicas avanzadas para identificar patrones y
+            tendencias, colaborando en el diseño de soluciones innovadoras que optimizan procesos
+            y mejoran el rendimiento.
           </p>
         </Container>
       </section>
@@ -88,55 +89,27 @@ const Home: NextPage = () => {
                 <Title>About me</Title>
               </div>
               <p>
-                Hello! My name is Mario and I enjoy creating things with code. I
-                started coding at 13, my interest started because I wanted to
-                know how mobile applications were built.
+                ¡Hola! Soy Romina, estudiante de tesis de la carrera de Ingeniería en Infomática, mi enfoque principal es el
+                analisis de datos, desde la constucción del ETL hasta visualizaciones para su mejor comprensión.
                 <br />
-                <br /> Until today I&#39;ve had the privilege to work at such
-                amazing companies and products.
+                <br /> Hasta ahora he trabajado en proyectos enfocados al análisis y también desarrollo de aplicaciones de web
                 <br />
-                <br /> I&#39;ve worked with different products such as &nbsp;
-                <b>
-                  <a
-                    href="https://www.5dias.com.py/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Newsletters
-                  </a>
-                  ,{" "}
-                  <a
-                    href="https://www.consolidada.com.py/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Insurance Companies
-                  </a>
-                  ,{" "}
-                  <a
-                    href="https://www.visionbanco.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Banks
-                  </a>
-                </b>{" "}
-                and also CMS web pages. Coding with SASS, CSS, Javascript, HTML.
+                <br /> He trabajado en diversos productos como Análisis de datos públicos, parsers de pdf, scraping de páginas web;
+                
+                y también en procesos de scraping de taps. Codificando en python con librerías como pandas, skitlearn, keras.
                 <br />
-                <br /> Nowadays, my main languages are typescript, javascript,
-                css and html, looking forward to expand my knowledge in the
-                backend, mobile and blockchain development.
+                <br /> Por ahora, mi enfoque actual e la visualización de datos a travéz de herramientas como PowerBi y Tableau.
               </p>
             </div>
             <div>
               <GradientImage src={aboutMeImage} alt="About Me Image" />
             </div>
           </div>
-          <SocialIcon type="twitter" href="https://twitter.com/mariogyd" />
+          <SocialIcon type="twitter" href="https://twitter.com/romi_alfonzo" />
           &nbsp;&nbsp;&nbsp;
           <SocialIcon
             type="linkedin"
-            href="https://www.linkedin.com/in/romi_alfonzo/"
+            href="https://www.linkedin.com/in/romi-alfonzo/"
           />
           &nbsp;&nbsp;&nbsp;
           <SocialIcon type="github" href="https://github.com/romi-alfonzo" />
@@ -148,7 +121,7 @@ const Home: NextPage = () => {
         aria-labelledby="experience-title"
       >
         <Container size="sm">
-          <Title id="experience-title">Where I&#39;ve Worked</Title>
+          <Title id="experience-title">He trabajado en</Title>
           <div className={styles.section_works__experience}>
             {experiences.map((work) => {
               return <Experience key={work.company + work.start} {...work} />;
@@ -162,7 +135,7 @@ const Home: NextPage = () => {
         aria-labelledby="work-title"
       >
         <Container size="sm">
-          <Title id="work-title">Some things I&#39;ve built</Title>
+          <Title id="work-title">Algunas cosas que he desarrollado</Title>
         </Container>
         <Container size="lg">
           <div className={styles.section__projects_container}>
@@ -180,12 +153,13 @@ const Home: NextPage = () => {
         aria-labelledby="contact-title"
       >
         <Container size="lg">
-          <h2 id="contact-title">Get In Touch</h2>
+          <h2 id="contact-title">Estemos en</h2>
           <p>
-            I&#39;m always open to new opportunities. If you have any question
-            or doubt, feel free to drop an email, I&#39;ll get back to you soon!
+          Siempre estoy abierta a nuevas oportunidades. Si tienes alguna pregunta o duda, 
+          no dudes en enviarme un correo electrónico 
+          ¡Te responderé pronto!
           </p>
-          <Button href="mailto:romi.alfonzo99@gmail.com">Say Hello</Button>
+          <Button href="mailto:romi.alfonzo99@gmail.com">Hablemos</Button>
         </Container>
         <div className="u-hide-sm">
           <div className={styles.section_contact_bg_img}>
