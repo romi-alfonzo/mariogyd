@@ -135,7 +135,7 @@ const Home: NextPage = () => {
         aria-labelledby="work-title"
       >
         <Container size="sm">
-          <Title id="work-title">Algunas cosas que he desarrollado</Title>
+          <Title id="work-title">Algunos proyectos que he hecho</Title>
         </Container>
         <Container size="lg">
           <div className={styles.section__projects_container}>

@@ -61,7 +61,7 @@ const Project: React.FC<ProjectProps> = ({
       <p className={styles.project__description}>{description}</p>
       <Button
         className={styles.project__cta}
-        href={cta}
+        href={""}
         target="_blank"
         rel="noreferrer"
         aria-label={ariaLabelLink}

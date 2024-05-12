@@ -1,37 +1,37 @@
-import spotifu from '@assets/img/placeholders/spotifu.jpeg';
-import blockMaster from '@assets/img/placeholders/block-master.png';
-import calculator from '@assets/img/placeholders/calculator.jpeg';
+import dash1 from '@assets/img/placeholders/Dash1.jpg';
+import dash2 from '@assets/img/placeholders/Dash2.jpg';
+import dash3 from '@assets/img/placeholders/Dash3.jpg';
 
 
 export const projects = [
     {
         number: "01",
-        title: "Block Master",
-        languages: ["Styled Components", "React", "Javascript"],
-        description: "A block buster website (like Netflix) where it fetches movies from tmdb(The movie DB) so the user can see and select one movie to see more details about that movie.",
-        cta: "https://github.com/mgueyraud/block-master/",
-        imageSource: blockMaster,
-        altImage: 'Screenshot of the Block Master Project',
-        ariaLabelLink: 'See the source code of the Block Master Project'
+        title: "Dashboard de Ventas",
+        languages: ["PowerBI"],
+        description: "Una forma fácil y comprensible de visualizar el comportamiento de las ventas de una compañía.",
+        cta: "",
+        imageSource: dash1,
+        altImage: 'Screenshot of the Sales Dashboard ',
+        ariaLabelLink: ''
     },
     {
         number: "02",
-        title: "Spotifu - Spotify Clone",
-        languages: ["JavaScript", "SASS", "React", "HTML"],
-        description: "A clone of the Spotify web page, where you can navigate into an album, and also hear music with my own library to play music in the DOM",
-        cta: "https://github.com/mgueyraud/Spotifu-SpotifyClone",
-        imageSource: spotifu,
-        altImage: 'Screenshot of the Spotifu Project',
-        ariaLabelLink: 'See the source code of the Spotifu Project'
+        title: "Dashboard RH",
+        languages: ["Power BI"],
+        description: "Un Dashboard que resume el comportamiento de las contrataciones y despidos relacionados al recurso humano de una empresa",
+        cta: "",
+        imageSource: dash2,
+        altImage: 'Screenshot of RH Dashboard',
+        ariaLabelLink: ''
     },
     {
         number: "03",
-        title: "Calculator App",
-        languages: ["Typescript", "React Native"],
-        description: "A mobile app (Clone of the calculator of iOS), where you can do calculations built with React Native and Typescript",
-        cta: "https://github.com/mgueyraud/calculator_iOS_RN",
-        imageSource: calculator,
-        altImage: 'Screenshot of the Calculator App Project',
-        ariaLabelLink: 'See the source code of the Calculator App Project'
+        title: "Dashboard Financiero",
+        languages: ["Power BI"],
+        description: "Descripción gráfica del comportamiento y tendencias financieras que experimenta una empresa a lo largo de los años",
+        cta: "",
+        imageSource: dash3,
+        altImage: 'Screenshot of the Financial Dashborad',
+        ariaLabelLink: ''
     },
 ];
